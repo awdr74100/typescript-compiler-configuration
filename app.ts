@@ -1,8 +1,16 @@
-const users = [
-  { name: "Ian", age: 23 },
-  { name: "Owen", age: 24 },
-];
+// const users = [
+//   { name: "Ian", age: 23 },
+//   { name: "Owen", age: 24 },
+// ];
 
-const user = users.sort((a, b) => b.age - a.age)[0];
-console.log(user);
-const delay = new Promise((resolve) => setTimeout(resolve, 2000));
+// const user = users.sort((a, b) => b.age - a.age)[0];
+// console.log(user);
+// const delay = new Promise((resolve) => setTimeout(resolve, 2000));
+
+const button = document.querySelector(".btn") as HTMLButtonElement;
+
+button.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  alert("Clicked!");
+});

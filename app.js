@@ -11,3 +11,4 @@ button.addEventListener("click", (e) => {
     e.preventDefault();
     alert("Clicked!");
 });
+//# sourceMappingURL=app.js.map

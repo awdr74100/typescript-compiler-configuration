@@ -1,6 +1,5 @@
 const btn = document.querySelector(".btn")!;
 
-// This is fucking comments
 btn.addEventListener("click", (e) => {
   e.preventDefault();
   console.log("Clicked!");

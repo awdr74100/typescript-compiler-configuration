@@ -1,0 +1,3 @@
+function generateToken() {
+  return "Token";
+}
